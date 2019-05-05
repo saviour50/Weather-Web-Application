@@ -1,0 +1,61 @@
+
+
+.location{
+text-align: center;
+width: 60%;
+margin: 0 auto;
+
+margin-top: 150px;
+}
+.location-timezone{
+display: inline-block;
+margin: 0 80px;
+font-size: 35px;
+
+}
+
+.location p{
+display: inline-block;
+
+	
+}
+
+.temperature{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+
+	margin-top:30px;
+}
+
+.temperature-degree{
+	display: inline-block;
+	font-size: 28px;
+
+}
+
+.temperature-degree span{
+	display: inline-block;
+	font-size: 28px;
+}
+
+
+.temperature-description{
+	margin-top:10px;
+	font-size: 25px;
+}
+body{
+	color: #fff;
+
+background-image: url(weatherbg.jpg);
+background-repeat: no-repeat;
+	font-family: sans-serif;
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+font-family: 'Bree Serif', serif;
+}
+
+.temperature .degree{
+	cursor: pointer;
+}
